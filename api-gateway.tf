@@ -1,6 +1,5 @@
 module "microservice" {
-  source = "git::https://github.com/roylines/terraform-ecs-microservice?ref=v1.0.0" 
-  
+  source = "git::https://github.com/roylines/terraform-ecs-microservice?ref=v1.1.0" 
   vpc_id = "${var.vpc_id}"
   vpc = "${var.vpc}"
   subnets = "${var.subnets}"
